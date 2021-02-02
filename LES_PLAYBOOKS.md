@@ -65,8 +65,8 @@ ansible-playbook -i inventory_children install_docker.yml
 
 ### Installation de git sur tous les  OS
 ```shell script
-    ansible-playbook -i inventory_children install_on_multios.yml
-```
+    
+```ansible-playbook -i inventory_children install_on_multios.yml
 
 ### 
 
